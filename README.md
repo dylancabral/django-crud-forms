@@ -2,7 +2,7 @@
 
 ## Project: 
 
-implementing crud into django framework using forms and routes
+implementing crud into django framework using forms
 
 ## Author: Student/Group Name
 
@@ -15,6 +15,8 @@ Angelos Kounavis
 ## Links and Resources
 
 [Code Fellows In class demo](https://github.com/codefellows/seattle-code-python-401d20/tree/main/class-28)
+[django for beginners](https://djangoforbeginners.com/)
+
 
 ## PORT - Port Number
 
@@ -22,12 +24,29 @@ port 8000
 
 ## DATABASE_URL - URL to the running Postgres instance/db
 
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
+- create directory
+- create venv
+- activate venv
+- pip install django 
+- create your project
+- migrate
+- manage your templates
+- add created application to settings
+- input your urls
+- create your views
+- create your pages to route to 
+- input tailwind and forms
+- create view functions
+- provide routing
+- create functions for CRUD
+- run server and debug
+- migrate again
+- test functionailty
+- debug some more
+- build tests
 
 ## Tests
 
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+- in virtual enviornment
+- python manage.py test.py
+
