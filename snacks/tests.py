@@ -76,6 +76,5 @@ class SnackTests(TestCase):
 
     # you can also tests models directly
     def test_model(self):
-        print(self)
         snack = Snack.objects.create(name="tasty chips", purchaser=self.user)
         self.assertEqual(snack.name, "tasty chips")
